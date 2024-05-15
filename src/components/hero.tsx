@@ -11,13 +11,13 @@ export function Hero() {
     <>
       <div className='flex flex-row'>
         <a
-          href='https://github.com/emapeire'
+          href='https://github.com/Yasir-Khan22'
           target='_blank'
           rel='noopener noreferrer'
           className='rounded-full'
         >
           <Avatar className='size-28 shadow border'>
-            <AvatarImage alt={avatar.name} src={'/assets/avatar.webp'} />
+            <AvatarImage alt={avatar.name} src={'/assets/profile.webp'} />
             <AvatarFallback className='font-mono font-bold'>
               {avatar.initials}
             </AvatarFallback>
@@ -27,7 +27,7 @@ export function Hero() {
 
       <div className='flex items-center flex-row gap-4'>
         <h1 className='flex dark:text-neutral-100 text-neutral-900 text-4xl font-bold text-balance'>
-          Emanuel Peire
+          Yasir Khan
         </h1>
         <Button
           variant='default'
@@ -36,7 +36,7 @@ export function Hero() {
           asChild
         >
           <a
-            href='https://linkedin.com/in/emanuelpeire'
+            href='https://linkedin.com/in/khanzada22'
             target='_blank'
             rel='noopener noreferrer'
             className='hidden md:flex'
@@ -47,7 +47,7 @@ export function Hero() {
         <Tooltip>
           <TooltipTrigger asChild>
             <a
-              href='https://linkedin.com/in/emanuelpeire'
+              href='https://linkedin.com/in/khanzada22'
               target='_blank'
               rel='noopener noreferrer'
               aria-label='Available'
